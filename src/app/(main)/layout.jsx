@@ -9,6 +9,7 @@ const MainLayout = ({children}) => {
       <Header />
       <BreakingNews />
       <Navbar />
+      {children}
     </>
   );
 };
